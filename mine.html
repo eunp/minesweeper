@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Minesweeper</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<h1>Minesweeper</h1>
+<div id="status"></div>
+<div>
+  <button class="button button_new" id="new">New Game</button>
+  <button class="button button_val" id="validate">Validate</button>
+  <button class="button button_hint" id="hint">Hint</button>
+</div>
+<form class="edit" oninput="updateRanges();" onchange="redrawBoard();">
+  [Rows: <output id="r" name="r" for="rows">8</output>]
+  4<input type="range" id="rows" name="rows" value="8" min="4" max="25">25&nbsp;&nbsp;
+  [Columns: <output id="c" name="c" for="cols">8</output>]
+  4<input type="range" id="cols" name="cols" value="8" min="4" max="25">25&nbsp;&nbsp;
+  [Difficulty: <output id="d" name="d" for="diff">1</output>]
+  0<input type="range" id="diff" name="diff" value="1" min="0" max="2">2
+</form>
+<script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+Minesweeper app has 4 files: 
+* mine.html 
+* app.js 
+* styles.css
+* README
+
+To run the app:
+* open the mine.html file on a browser.
+* By default there are 8 rows, 8 columns, and difficulty set to 1
+* Start by clicking on individual cells on the board
+* If you click on 'x' then you hit the bomb and you must start a 'New Game'
+* Otherwise you will get a count of adjacent number of bombs that it's neighboring
+* If the count is 0 then it'll clear out cells until it finds some with neighboring bombs
+* Click on 'Validate' when you're ready
+* You can also click 'Hint' and 1 bomb location will show up in a red colored cell.
+* You can continue to click 'Hint' until there's no more hints left.
+* You can also customize the number of rows, columns, and difficulty with a slider control.
+* Have fun!
+
+This app was tested on the following browsers:
+* Chrome 57.0
+* Safari 10.1
+* Firefox 52.0
+
